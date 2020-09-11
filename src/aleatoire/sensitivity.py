@@ -1,6 +1,6 @@
 import numpy as np 
 import scipy.stats 
-from alea.form import FORM 
+from aleatoire.form import FORM 
 
 
 class linearSensitivity:
