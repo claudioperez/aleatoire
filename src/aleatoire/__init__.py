@@ -1,13 +1,14 @@
 from scipy.integrate import nquad
 from scipy import optimize, special, stats, linalg
 import numpy as np 
-from alea.moment import *
-from alea.couple import *
-from alea.form import *
-from alea.sensitivity import linearSensitivity
+from aleatoire.moment import *
+from aleatoire.couple import *
+from aleatoire.form import *
+from aleatoire.sensitivity import linearSensitivity
 # from alea.systems import Series, Parallel
-import alea.transform
-
+import aleatoire.transform
+import aleatoire.numeric
+import aleatoire.io
 
 class rvSet(np.ndarray):
     def __new__(cls, rvars=None,data=None,Rxx=None,Sxx=None):
