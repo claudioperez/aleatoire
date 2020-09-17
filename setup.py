@@ -20,7 +20,7 @@ def read(*names, **kwargs):
 
 setup(
     name='aleatoire',
-    version='0.0.1',
+    version='0.0.2',
     license='Apache-2.0',
     description='System reliability analysis.',
     long_description='%s\n%s' % (

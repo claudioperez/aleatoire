@@ -34,5 +34,5 @@ You can also install the in-development version with:
 [travis-image]: https://api.travis-ci.org/claudioperez/aleatoire.svg?branch=master
 [travis-link]: https://travis-ci.org/claudioperez/aleatoire
 
-[gh-link]: https://github.com/claudioperez/aleatoire/compare/v0.0.1...master
-[gh-image]: https://img.shields.io/github/commits-since/claudioperez/aleatoire/v0.0.1?style=social
+[gh-link]: https://github.com/claudioperez/aleatoire/compare/v0.0.2...master
+[gh-image]: https://img.shields.io/github/commits-since/claudioperez/aleatoire/v0.0.2?style=social
