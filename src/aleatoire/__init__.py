@@ -2,11 +2,9 @@ from scipy.integrate import nquad
 from scipy import optimize, special, stats, linalg
 import numpy as np 
 from aleatoire.moment import *
-from aleatoire.couple import *
+from aleatoire.transform import *
 from aleatoire.form import *
 from aleatoire.sensitivity import linearSensitivity
-# from alea.systems import Series, Parallel
-import aleatoire.transform
 import aleatoire.numeric
 import aleatoire.io
 
