@@ -18,16 +18,16 @@ def read(*names, **kwargs):
     ) as fh:
         return fh.read()
 
-
 setup(
     name='aleatoire',
     version='0.0.1',
-    license='BSD-3-Clause',
+    license='Apache-2.0',
     description='System reliability analysis.',
     long_description='%s\n%s' % (
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.md')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.md'))
     ),
+    long_description_content_type= 'text/markdown',
     author='Claudio Perez',
     author_email='claudio_perez@berkeley.edu',
     url='https://github.com/claudioperez/aleatoire',
@@ -39,8 +39,8 @@ setup(
     classifiers=[
         # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 2 - Pre-Alpha',
-        'Intended Audience :: Developers, Engineers',
-        'License :: OSI Approved :: BSD License',
+        'Intended Audience :: Education',
+        'License :: OSI Approved :: Apache Software License',
         'Operating System :: Unix',
         'Operating System :: POSIX',
         'Operating System :: Microsoft :: Windows',
@@ -49,16 +49,17 @@ setup(
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: Implementation :: CPython',
-        'Topic :: Utilities',
+        'Topic :: Scientific/Engineering',
+        'Topic :: Education'
     ],
     project_urls={
         'Changelog': 'https://github.com/claudioperez/aleatoire/blob/master/CHANGELOG.md',
         'Issue Tracker': 'https://github.com/claudioperez/aleatoire/issues',
     },
     keywords=[
-        'finite element', 'beam', 'structural analysis',
+        'reliability','form','system-reliability','nataf','copula',
     ],
-    python_requires='>=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*',
+    python_requires='>=3.6',
     install_requires=[
     ],
 

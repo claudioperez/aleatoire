@@ -9,7 +9,6 @@ A set of tools for the probabilistic analysis of systems.
 
 --------------------
 
-[![Build Status][travis-image]][travis-link]
 [![PyPI Version][pypi-v-image]][pypi-v-link]
 [![Commits since latest release][gh-image]][gh-link]
 
@@ -17,7 +16,7 @@ A set of tools for the probabilistic analysis of systems.
 
 - [Installation](#installation)
 
-A rough compilation of general-purpose reliability functions and classes written over the course of a semester. This package implements probability transformations composed of marginal distributions which are defined using objects from the popular scipy.stats statistical library. This package is largely built upon the framework for reliability computations layed out in CalRel and FERUM.
+A rough compilation of general-purpose system reliability functions and classes written over the course of a semester. This package implements probability transformations composed of marginal distributions which are defined using objects from the popular scipy.stats statistical library. This package is largely built upon the framework for reliability computations layed out in CalRel and FERUM.
 
 ## Installation
 
@@ -35,5 +34,5 @@ You can also install the in-development version with:
 [travis-image]: https://api.travis-ci.org/claudioperez/aleatoire.svg?branch=master
 [travis-link]: https://travis-ci.org/claudioperez/aleatoire
 
-[gh-link]: https://github.com/claudioperez/aleatoire/compare/v0.0.0...master
-[gh-image]: https://img.shields.io/github/commits-since/claudioperez/aleatoire/v0.0.0.svg
+[gh-link]: https://github.com/claudioperez/aleatoire/compare/v0.0.1...master
+[gh-image]: https://img.shields.io/github/commits-since/claudioperez/aleatoire/v0.0.1?style=social
