@@ -3,7 +3,8 @@ import scipy.linalg
 import scipy.stats
 from scipy.optimize import minimize
 import scipy.optimize
-from ema.utilities.numerical import iHLRF
+#from ema.utilities.numerical import iHLRF
+from .numeric import iHLRF
 
 class FORM:
     """First order reliability analysis"""
