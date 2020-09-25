@@ -1,6 +1,6 @@
 ---
 title: Aleatoire
-description: A set of tools for the probabilistic analysis of systems.
+description: A set of object-oriented tools for the probabilistic analysis of systems.
 ...
 
 <h1>Aleatoire</h1>
@@ -20,12 +20,15 @@ A rough compilation of general-purpose system reliability functions and classes 
 
 ## Installation
 
-    pip install aleatoire
+```shell
+pip install aleatoire
+```
 
 You can also install the in-development version with:
 
-    pip install https://github.com/claudioperez/aleatoire/archive/master.zip
-
+```shell
+pip install https://github.com/claudioperez/aleatoire/archive/master.zip
+```
 
 
 [pypi-v-image]: https://img.shields.io/pypi/v/aleatoire.svg
