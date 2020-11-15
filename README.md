@@ -1,5 +1,6 @@
 ---
 title: Aleatoire
+url: https://github.com/claudioperez/aleatoire
 description: A set of object-oriented tools for the probabilistic analysis of systems.
 ...
 
