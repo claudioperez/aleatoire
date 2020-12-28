@@ -11,6 +11,13 @@ from setuptools import find_packages
 from setuptools import setup
 
 
+def get_version(package):
+    """Return package version as listed in `__version__` in `__init__.py`."""
+    with open(os.path.join(package, '__init__.py')) as f:
+        init_py = f.read()
+    return re.search("__version__ = ['\"]([^'\"]+)['\"]", init_py).group(1)
+
+
 def read(*names, **kwargs):
     with io.open(
         join(dirname(__file__), *names),
@@ -20,7 +27,7 @@ def read(*names, **kwargs):
 
 setup(
     name='aleatoire',
-    version='0.0.2',
+    version=get_version("./src/aleatoire"),
     license='Apache-2.0',
     description='System reliability analysis.',
     long_description='%s\n%s' % (
@@ -37,7 +44,6 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        # complete classifier list: http://pypi.python.org/pypi?%3Aaction=list_classifiers
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Education',
         'License :: OSI Approved :: Apache Software License',

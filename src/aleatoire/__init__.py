@@ -1,3 +1,7 @@
+
+__version__ = "0.0.2"
+
+
 from scipy.integrate import nquad
 from scipy import optimize, special, stats, linalg
 import numpy as np 
